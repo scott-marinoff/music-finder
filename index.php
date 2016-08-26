@@ -5,19 +5,7 @@
  <body>
  	<?php echo '<p>Hello World</p>'; ?> 
 
-<!-- 
- 	<?php require_once("/mixpanel-php-master/lib/Mixpanel.php"); ?> 
- -->
-
-	<?php require "/mixpanel-php-master/lib/Mixpanel.php"; ?> 
-
-<!-- 	// get the Mixpanel class instance, replace with your project token
-	$mp = Mixpanel::getInstance("fd57ae8ed4617b21b3ee19238a7309d8");
-
-	// track an event
-	$mp->track("Page viewed", array("Page" => "Homepage"));
- -->	
-	
+	<?php require "mixpanel-php-master/lib/Mixpanel.php"; ?> 
 
  </body>
 </html>
