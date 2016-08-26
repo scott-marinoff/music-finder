@@ -9,7 +9,7 @@
 
 	<?php $mp = Mixpanel::getInstance("fd57ae8ed4617b21b3ee19238a7309d8"); ?>
 
-	<?php $mp.track("Page viewed", array("Page" => "Homepage")); ?>
+	<?php $mp->track("Page viewed", array("Page" => "Homepage")); ?>
 
  </body>
 </html>
